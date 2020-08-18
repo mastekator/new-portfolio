@@ -1,20 +1,26 @@
 //React
 import React from 'react';
 
-const Index = () => {
-    return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
+//Third-party
+import {Route, Switch, withRouter} from "react-router-dom";
 
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+//App
+import Layout from "./layout/Layout";
+import Main from "./pages/Main";
+
+const Index = () => {
+
+    let routes = (
+        <Switch>
+            <Route path="/" component={Main}/>
+        </Switch>
+    )
+
+    return (
+        <Layout>
+            {routes}
+        </Layout>
     );
 }
 
-export default Index;
+export default withRouter(Index);
