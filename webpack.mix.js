@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 require('laravel-mix-react-css-modules');
+require("laravel-mix-react-typescript-extension");
 
 /*
  |--------------------------------------------------------------------------
@@ -12,7 +13,7 @@ require('laravel-mix-react-css-modules');
  |
  */
 
-mix.react('resources/js/app.js', 'public/js')
+mix.reactTypeScript('resources/js/app.tsx', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .version()
     .reactCSSModules('[path]__[name]___[hash:base64]')

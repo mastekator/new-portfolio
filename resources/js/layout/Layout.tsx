@@ -8,7 +8,7 @@ import classes from './Layout.module.css'
 import Header from "../components/navigation/Header/Header";
 import Footer from "../components/navigation/Footer/Footer";
 
-const Layout = (props) => {
+const Layout:React.FC = (props) => {
     return (
         <div className={classes.Layout}>
             <Header/>

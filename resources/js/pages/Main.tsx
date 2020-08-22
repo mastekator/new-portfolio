@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-const Main = () => {
+const Main: React.FC = () => {
     return (
         <div className="container">
             <h1>Main page</h1>

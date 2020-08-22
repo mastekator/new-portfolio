@@ -13,3 +13,5 @@ yarn-error.log
 /public/css/
 /public/js/
 /public/web.config
+public/mix-manifest.json
+tsconfig.json

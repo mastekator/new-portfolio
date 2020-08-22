@@ -8,7 +8,7 @@ import {Route, Switch, withRouter} from "react-router-dom";
 import Layout from "./layout/Layout";
 import Main from "./pages/Main";
 
-const Index = () => {
+const Index: React.FC = () => {
 
     let routes = (
         <Switch>

@@ -10,7 +10,7 @@ import classes from './Header.module.css'
 //App
 import AfterHeader from "../../AfterHeader/AfterHeader";
 
-const Header = () => {
+const Header:React.FC = () => {
 
     useEffect(() => {
         new WOW.WOW().init();
