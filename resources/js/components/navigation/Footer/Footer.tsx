@@ -1,8 +1,8 @@
-//React
+// React
 import React from 'react';
 
-//Styles
-import styles from "./Footer.module.css"
+// Styles
+import styles from './Footer.module.css'
 
 
 const Footer: React.FC = () => {

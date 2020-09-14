@@ -1,12 +1,17 @@
 {
-    "name": "laravel/laravel",
+    "name": "ReactTypescriptLaravel/portfolio",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Portfolio on laravel and react+typescript.",
     "keywords": [
-        "framework",
-        "laravel"
+        "js",
+        "javascript",
+        "laravel",
+        "react",
+        "portfolio",
+        "typescript"
     ],
-    "license": "MIT",
+    "license": "ISC",
+    "homepage": "https://github.com/mastekator/new-portfolio#readme",
     "require": {
         "php": "^7.2.5",
         "fideloper/proxy": "^4.2",
@@ -17,6 +22,7 @@
         "laravel/ui": "^2.1"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.9.1",
         "mockery/mockery": "^1.3.1",

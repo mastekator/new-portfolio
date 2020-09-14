@@ -1,16 +1,15 @@
-//React
+// React
 import React from 'react';
 
-//Third-party
-import {Route, Switch, withRouter} from "react-router-dom";
+// Third-party
+import {Route, Switch, withRouter} from 'react-router-dom';
 
-//App
-import Layout from "./layout/Layout";
-import Main from "./pages/Main";
+// App
+import Layout from './layout/Layout';
+import Main from './pages/Main';
 
 const Index: React.FC = () => {
-
-    let routes = (
+    const routes = (
         <Switch>
             <Route path="/" component={Main}/>
         </Switch>

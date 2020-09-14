@@ -1,14 +1,15 @@
-//React
+// React
 import React from 'react';
+import PropTypes from 'prop-types';
 
-//Styles
+// Styles
 import classes from './Layout.module.css'
 
-//App
-import Header from "../components/navigation/Header/Header";
-import Footer from "../components/navigation/Footer/Footer";
+// App
+import Header from '../components/navigation/Header/Header';
+import Footer from '../components/navigation/Footer/Footer';
 
-const Layout:React.FC = (props) => {
+const Layout: React.FC = (props) => {
     return (
         <div className={classes.Layout}>
             <Header/>
@@ -18,6 +19,10 @@ const Layout:React.FC = (props) => {
             <Footer/>
         </div>
     );
+}
+
+Layout.propTypes = {
+    children: PropTypes.node.isRequired
 }
 
 export default Layout;

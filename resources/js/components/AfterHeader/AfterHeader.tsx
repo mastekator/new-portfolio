@@ -1,8 +1,8 @@
-//React
+// React
 import React from 'react';
 
-//Styles
-import classes from "./AfterHeader.module.css";
+// Styles
+import classes from './AfterHeader.module.css';
 
 const AfterHeader:React.FC = () => {
     return (

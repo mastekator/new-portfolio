@@ -1,19 +1,18 @@
-//React
+// React
 import React, {useEffect} from 'react';
 
-//Third-party
-import WOW from "wowjs";
+// Third-party
+import WOW from 'wowjs';
 
-//Styles
+// Styles
 import classes from './Header.module.css'
 
-//App
-import AfterHeader from "../../AfterHeader/AfterHeader";
+// App
+import AfterHeader from '../../AfterHeader/AfterHeader';
 
 const Header:React.FC = () => {
-
     useEffect(() => {
-        new WOW.WOW().init();
+        new WOW.WOW().init()
     })
 
     return (

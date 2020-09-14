@@ -1,11 +1,11 @@
-//React
+// React
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-//Third-party
-import {BrowserRouter as Router} from "react-router-dom";
+// Third-party
+import {BrowserRouter as Router} from 'react-router-dom';
 
-//App
+// App
 import Index from './index'
 
 const application = (
